@@ -1,0 +1,53 @@
+.cantidad{
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+
+}
+.CardItem{
+    width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.CardItem2{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.price{
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--color-price);
+}
+.CardTitle{
+    font-size: 26px;
+    font-weight: 300;
+    color: var( --color-text);
+}
+.card-img{
+    width: 50%;
+    height: auto;
+
+    display: block;
+    margin: auto;
+}
+
+.BtnContador{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}

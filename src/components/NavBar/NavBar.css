@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.contenedor {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .9);
+    background: #2BC0E4;  
+    background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4); 
+    background: linear-gradient(to right, #EAECC6, #2BC0E4); 
+
+    
+}
+.logo{
+    width: 80px;
+    margin-right: 50px;
+}
+
+
+.Links { 
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 26px;
+    color: var(--color-text-dark);
+    padding: 20px;
+}
+.Links:hover{
+    color: var(--color-text-dark2);
+}
+
+.titulo{
+    
+    display: flex;
+    width: 210px;
+    height: 40px;
+    color: var(--color-text-dark);
+    font-size: 40px;
+    line-height: 30px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    overflow: hidden;
+  
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 3s infinite;
+}
+
+ul, p {
+    margin: 0;
+}
+
+@keyframes cambiar{
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+
+    25%{margin-top: -40px;}
+    50%{margin-top: 40px;}
+ 
+    55%{margin-top: -80px;}
+    80%{margin-top: -80px;}
+
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+
+    100%{margin-top: 0;}
+}
